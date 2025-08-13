@@ -1,0 +1,74 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=2070&auto=format&fit=crop")
+      no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.job-card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  border: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(40, 167, 69, 0.2);
+}
+
+.job-card .card-title {
+  color: #198754;
+  font-weight: 600;
+}
+
+.job-card .card-subtitle {
+  font-weight: 600;
+}
+
+.job-tag {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.4em 0.8em;
+}
+
+.btn-success {
+  background-color: #198754;
+  border-color: #198754;
+}
+
+.btn-success:hover {
+  background-color: #157347;
+  border-color: #146c43;
+}
+
+footer {
+  background-color: #212529;
+}
+
+#no-results {
+  display: none;
+  /* Hidden by default */
+}
